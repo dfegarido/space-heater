@@ -334,7 +334,7 @@ ul.topMenu li a:hover {
 .banner-subheading {
     font-size: 20px;
     line-height: 28px;
-    color: #FF6B00;
+    color: #f02020;
     font-weight: 700;
     margin-bottom: 10px;
     letter-spacing: 0.3px;
@@ -351,7 +351,7 @@ ul.topMenu li a:hover {
 }
 
 .banner-heading .highlight-off {
-    color: #FF6B00;
+    color: #f02020;
     font-size: 48px;
     font-weight: 800;
 }
@@ -416,7 +416,7 @@ ul.banner-features li:before {
     content: "•";
     position: absolute;
     left: 0;
-    color: #FF6B00;
+    color: #f02020;
     font-size: 24px;
     line-height: 28px;
     font-weight: bold;
@@ -526,7 +526,7 @@ a.click-btn span {
 }
 
 .btn-ofr-text span {
-    color: #fc2500;
+    color: #f02020;
 }
 
 .banner-bottom {
@@ -648,7 +648,7 @@ ul.promise-list li p {
     font-size: 44px;
     line-height: 60px;
     font-weight: 800;
-    color: #FF6B00;
+    color: #f02020;
     margin-bottom: 20px;
     letter-spacing: 0;
 }
@@ -732,7 +732,7 @@ ul.feature li strong {
 }
 
 .btn-text2 span {
-    color: #FC2201;
+    color: #f02020;
     font-weight: 700;
 }
 
@@ -848,7 +848,7 @@ ul.s1-prms-list li p {
 .features-subheading {
     font-size: 18px;
     line-height: 24px;
-    color: #FF6B00;
+    color: #f02020;
     font-weight: 800;
     margin-bottom: 10px;
     letter-spacing: 1px;
@@ -894,7 +894,7 @@ ul.s1-prms-list li p {
 }
 
 .feature-num {
-    color: #E65100;
+    color: #f02020;
     font-size: 32px;
     line-height: 38px;
     font-weight: 800;
@@ -1034,7 +1034,7 @@ ul.s1-prms-list li p {
     font-size: 34px;
     font-weight: 700;
     line-height: 40px;
-    color: #ff6651;
+    color: #f02020;
     letter-spacing: .5px;
     margin-top: 10px;
 }
@@ -1247,7 +1247,7 @@ ul.s1-prms-list li p {
 }
 
 .comp-heatspace {
-    background: #FF6B00;
+    background: #f02020;
     color: #fff;
 }
 
@@ -1461,7 +1461,7 @@ ul.s1-prms-list li p {
 .testimonials-label {
     font-size: 18px;
     line-height: 24px;
-    color: #FF6B00;
+    color: #f02020;
     font-weight: 800;
     margin-bottom: 10px;
     letter-spacing: 1px;
