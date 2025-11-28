@@ -469,16 +469,20 @@ ul.banner-features li:before {
     width: 45%;
     position: relative;
     z-index: 1;
+    display: block;
+    visibility: visible;
 }
 
 .banner-product-container {
     position: relative;
     width: 100%;
     height: 500px;
-    background: url(https://homezies.com/wp-content/uploads/2025/11/9103N74QllL._AC_UF8941000_QL80_.jpg) no-repeat center right;
+    background: #f0f0f0 url(https://homezies.com/wp-content/uploads/2025/11/9103N74QllL._AC_UF8941000_QL80_.jpg) no-repeat center center;
     background-size: cover;
     border-radius: 15px;
     overflow: hidden;
+    display: block;
+    visibility: visible;
 }
 
 .product-image-wrapper {
@@ -2137,6 +2141,15 @@ ul.s1-prms-list li p {
     .n-1 {
         padding: 20px 0 5px;
         background: #fdf8ec;
+        overflow: visible;
+    }
+    
+    .n-1 .container {
+        overflow: visible;
+    }
+    
+    .banner-wrapper {
+        overflow: visible;
     }
     
     .banner-subheading {
@@ -2174,9 +2187,19 @@ ul.s1-prms-list li p {
     }
     
     .banner-product-container {
-        height: 300px;
-        background-size: cover;
-        background-position: center;
+        height: 350px !important;
+        min-height: 350px !important;
+        background: url(https://homezies.com/wp-content/uploads/2025/11/9103N74QllL._AC_UF8941000_QL80_.jpg) no-repeat center center !important;
+        background-size: contain !important;
+        background-color: #f0f0f0 !important;
+        display: block !important;
+        visibility: visible !important;
+        width: 100% !important;
+        border-radius: 15px;
+    }
+    
+    .product-image-wrapper {
+        display: none !important;
     }
     
     .guarantee-badge {
@@ -2184,6 +2207,8 @@ ul.s1-prms-list li p {
         height: 80px;
         right: 10px;
         top: 10px;
+        display: flex;
+        visibility: visible;
     }
     
     .guarantee-badge p {
@@ -2243,13 +2268,29 @@ ul.s1-prms-list li p {
     }
     
     .banner-right {
-        width: 100%;
+        width: 100% !important;
         order: -1;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        float: none;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 20px;
     }
     
     .banner-product-container {
-        height: 300px;
-        background-position: center;
+        height: 350px !important;
+        min-height: 350px !important;
+        background: url(https://homezies.com/wp-content/uploads/2025/11/9103N74QllL._AC_UF8941000_QL80_.jpg) no-repeat center center !important;
+        background-size: contain !important;
+        background-color: #f0f0f0 !important;
+        display: block !important;
+        visibility: visible !important;
+        width: 100% !important;
+        position: relative;
+        overflow: visible;
+        border-radius: 15px;
     }
     
     .guarantee-badge {
