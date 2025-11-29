@@ -2191,11 +2191,14 @@ ul.s1-prms-list li p {
         min-height: 350px !important;
         background: url(https://homezies.com/wp-content/uploads/2025/11/9103N74QllL._AC_UF8941000_QL80_.jpg) no-repeat center center !important;
         background-size: contain !important;
+        background-position: 50% 50% !important;
         background-color: #f0f0f0 !important;
         display: block !important;
         visibility: visible !important;
         width: 100% !important;
         border-radius: 15px;
+        margin: 0 auto;
+        overflow: hidden !important;
     }
     
     .product-image-wrapper {
@@ -2273,10 +2276,12 @@ ul.s1-prms-list li p {
         display: block !important;
         visibility: visible !important;
         opacity: 1 !important;
-        float: none;
+        float: none !important;
         position: relative;
         z-index: 1;
-        margin-bottom: 20px;
+        margin: 0 auto 20px auto;
+        left: 0;
+        right: 0;
     }
     
     .banner-product-container {
@@ -2285,12 +2290,16 @@ ul.s1-prms-list li p {
         background: url(https://homezies.com/wp-content/uploads/2025/11/9103N74QllL._AC_UF8941000_QL80_.jpg) no-repeat center center !important;
         background-size: contain !important;
         background-color: #f0f0f0 !important;
+        background-position: 50% 50% !important;
         display: block !important;
         visibility: visible !important;
         width: 100% !important;
         position: relative;
-        overflow: visible;
+        overflow: hidden !important;
         border-radius: 15px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
     }
     
     .guarantee-badge {
