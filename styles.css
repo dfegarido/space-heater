@@ -2483,8 +2483,17 @@ ul.s1-prms-list li p {
         margin-top: 25px;
     }
     
+    /* Slimmer buttons for tablets and mobile */
+    .click-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+        min-height: 44px;
+        line-height: 24px;
+    }
+    
     .btn-ofr-text {
         text-align: left;
+        font-size: 13px;
     }
     
     .banner-left {
@@ -3079,9 +3088,11 @@ ul.s1-prms-list li p {
     }
     
     .click-btn {
-        font-size: 18px;
-        padding: 14px;
-        min-height: 50px;
+        font-size: 15px;
+        padding: 10px 18px;
+        min-height: 42px;
+        line-height: 22px;
+        border-radius: 38px;
         cursor: pointer;
         -webkit-tap-highlight-color: transparent;
     }
@@ -3091,6 +3102,8 @@ ul.s1-prms-list li p {
     }
     
     .nav-btn {
+        padding: 10px 20px;
+        font-size: 14px;
         -webkit-tap-highlight-color: transparent;
     }
     
@@ -3098,9 +3111,13 @@ ul.s1-prms-list li p {
         transform: scale(0.98);
     }
     
+    .nav-btn span {
+        font-size: 16px;
+    }
+    
     .btn-txt {
-        font-size: 13px;
-        margin-top: 12px;
+        font-size: 12px;
+        margin-top: 10px;
     }
     
     .top-fix-bar.fixed-nav .header {
@@ -3249,6 +3266,125 @@ ul.s1-prms-list li p {
     .acdn-para {
         font-size: 15px;
         line-height: 22px;
+    }
+    
+    /* Slimmer buttons for small devices */
+    .click-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+        min-height: 40px;
+        line-height: 20px;
+        border-radius: 35px;
+    }
+    
+    .nav-btn {
+        padding: 7px 14px;
+        font-size: 12px;
+        border-radius: 35px;
+    }
+    
+    .nav-btn span {
+        font-size: 14px;
+    }
+    
+    .btn-txt {
+        font-size: 11px;
+        margin-top: 8px;
+    }
+    
+    .bf-code-btn {
+        padding: 5px 12px;
+        font-size: 12px;
+        border-radius: 20px;
+    }
+}
+
+/* Very small devices (phones in portrait, less than 360px) */
+@media only screen and (max-width: 360px) {
+    .container {
+        padding: 0 10px;
+    }
+    
+    .banner-heading {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    .banner-heading .highlight-off {
+        font-size: 24px;
+    }
+    
+    .click-btn {
+        font-size: 13px;
+        padding: 7px 14px;
+        min-height: 38px;
+        line-height: 18px;
+        border-radius: 30px;
+    }
+    
+    .nav-btn {
+        padding: 6px 12px;
+        font-size: 11px;
+        border-radius: 30px;
+    }
+    
+    .comfort-savings-headline {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .features-heading,
+    .comparison-heading,
+    .testimonials-heading,
+    .guarantee-heading {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+/* Ensure images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Improve touch targets for mobile */
+@media only screen and (max-width: 767px) {
+    a.click-btn,
+    .nav-btn,
+    button {
+        min-height: 40px;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Further reduce button padding on mobile */
+    .click-btn {
+        padding: 8px 16px !important;
+        font-size: 14px !important;
+        min-height: 40px !important;
+        line-height: 20px !important;
+        border-radius: 35px !important;
+    }
+    
+    .nav-btn {
+        border-radius: 35px !important;
+    }
+    
+    /* Improve testimonial cards on mobile */
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    /* Better spacing for feature items on mobile */
+    .feature-item {
+        margin-bottom: 30px;
+    }
+    
+    .feature-image img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
 }
 
